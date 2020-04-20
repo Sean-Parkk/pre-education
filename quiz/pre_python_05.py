@@ -16,3 +16,6 @@
 5 * 9 = 45
 
 """
+def mul_table(n):
+    for num in range(1, 10):
+        print('{} * {} = {}'.format(n, num, n*num))
