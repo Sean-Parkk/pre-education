@@ -21,5 +21,8 @@ def cal():
         return a - b
     elif sign == '*':
         return a * b
-    else:
+    elif sign == '-':
         return a - b
+    else:
+        return print('잘못 입력했습니다.')
+cal()

@@ -20,12 +20,12 @@ def eval_grade():
     grade = int(input('score : '))
 
     if grade > 80:
-        print('A')
+        return print('A')
     elif grade > 60:
-        print('B')
+        return print('B')
     elif grade > 40:
-        print('C')
+        return print('C')
     elif grade > 20:
-        print('D')
+        return print('D')
     else:
-        print('F')
+        return print('F')

@@ -34,3 +34,4 @@ def print_star():
         print('{:>{}}'.format('*'*num, n))
     for num in range(n-1, 0, -1):
         print('{:>{}}'.format('*'*num, n))
+    return

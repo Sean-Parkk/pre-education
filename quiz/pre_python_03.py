@@ -13,19 +13,19 @@
 """
 def dicegame():
     import random
-    # 첫번째 참가자
-    input('첫번째 참가자 엔터키를 눌러 주사위를 던져 주세요 : ')
+    # 첫 번째 참가자
+    input('첫 번째 참가자 엔터키를 눌러 주사위를 던져 주세요 : ')
     a = random.randint(1, 6)
     print(a)
-    # 두번째 참가자
-    input('첫번째 참가자 엔터키를 눌러 주사위를 던져 주세요 : ')
+    # 두 번째 참가자
+    input('첫 번째 참가자 엔터키를 눌러 주사위를 던져 주세요 : ')
     b = random.randint(1, 6)
     print(b)
 
     # 승부 출력
     if a > b:
-        print('첫 번째 참가자의 승리입니다.')
+        return print('첫 번째 참가자의 승리입니다.')
     elif b > a:
-        print('두 번째 참가자의 승리입니다.')
+        return print('두 번째 참가자의 승리입니다.')
     else:
-        print('비겼습니다.')
+        return print('비겼습니다.')

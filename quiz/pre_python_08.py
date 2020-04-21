@@ -10,4 +10,4 @@
 
 def odd_or_even():
     num = int(input('정수를 입력하세요 : '))
-    print('짝수입니다.') if num % 2 == 0 else print('홀수입니다.')
+    return print('짝수입니다.') if num % 2 == 0 else print('홀수입니다.')
